@@ -1,0 +1,246 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #d5e3f5;
+  margin: 0;
+  color: #a886bc;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #5e00e0;
+}
+
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: url("mirror0.jpg") no-repeat center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+#showcase .container {
+  margin-top: 25vh;
+}
+
+#showcase h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+#showcase h2 {
+  font-size: 2rem;
+}
+
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #edd7fd;
+  color: dimgrey;
+  position: fixed;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  color: #a886bc;
+  font-weight: bolder;
+}
+
+nav li:hover {
+  background-color: #e4e3fb;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+footer .cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .cols ul {
+  list-style: none;
+}
+
+footer .cols ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: oldlace solid 2px;
+  margin-bottom: 1rem;
+}
+
+footer .bot {
+  background-color: #cbe0fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.section-head {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.section h3 {
+  font-size: 2rem;
+}
+
+.row-main {
+  display: inline-flex;
+}
+
+.column-main {
+  flex: 33.33%;
+  padding: 6px;
+}
+
+:root {
+  --primary-color: #cbc1e3;
+  --primary-color-hover: #edd7fd;
+  --secondary-color: #d9ccc5;
+  --secondary-color-hover: #f2e4dc;
+  --light-color: #b9b8b8;
+}
+
+.btn {
+  padding: 1rem;
+  color: black;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--primary-color-hover);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color-hover);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+/* ------------------------------------------------------------------- */
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.col-4 {
+  flex-basis: 25%;
+  padding: 50px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  width: 100%;
+}
+
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  border: 1px solid #a886bc;
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.page-btn {
+  margin: 1 40px 80px;
+}
+
+.page-btn span {
+  display: inline-block;
+  border: 1px solid #a886bc;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.page-btn span:hover {
+  background: #a886bc;
+  color: #ffffff;
+}
+
+h4 {
+  color: rgb(148, 148, 148);
+  font-weight: normal;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.col-4:hover {
+  transform: translateY(-50px);
+}
